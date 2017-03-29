@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#input_id, #input_pw, #login_btn, #logout_btn {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  outline: 0;
+}
+
+#login {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
+.text-align-cetner {
+  text-align: center;
+}
+
+#login_success {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  display: none;
+}
+#logout {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  display: none;
+}
+
+#logout_content {
+  display: none;
+}
